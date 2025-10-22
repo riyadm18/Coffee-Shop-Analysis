@@ -2,8 +2,6 @@
 
 This project performs a complete exploratory data analysis on a transactional coffee shop dataset to uncover **revenue trends, operational patterns, product performance, and customer demand behavior**. The objective is to derive insights that can help management optimize **pricing, staffing, inventory planning, and marketing decisions**.
 
----
-
 ## 🎯 Business Objectives
 
 - Understand *when* and *what* customers buy the most
@@ -11,8 +9,6 @@ This project performs a complete exploratory data analysis on a transactional co
 - Detect seasonal and hourly demand patterns for resource planning
 - Compare store performance and locate revenue gaps
 - Provide actionable recommendations to improve revenue and efficiency
-
----
 
 ## 📂 Dataset Summary
 
@@ -28,8 +24,6 @@ This project performs a complete exploratory data analysis on a transactional co
 - `product_name`, `transaction_qty`, `unit_price`
 - `total_price = transaction_qty * unit_price` *(engineered)*
 
----
-
 ## 🧹 Data Preparation & Feature Engineering
 
 - Removed duplicates and invalid rows  
@@ -37,8 +31,6 @@ This project performs a complete exploratory data analysis on a transactional co
 - Added `total_price` to compute revenue per order
 - Aggregated data by product, day, week, and store
 - Created custom views for seasonal and hourly analysis
-
----
 
 ## 📊 Exploratory Data Analysis
 
@@ -61,8 +53,6 @@ This project performs a complete exploratory data analysis on a transactional co
 - Repeat purchase signals (if time patterns show loyalty)
 - Impulse vs habitual buying windows
 
----
-
 ## 📌 Sample Key Insights (Real-World Style)
 
 - **Morning peak (8–11 AM)** accounts for ~45% of revenue — staffing can be optimized accordingly
@@ -70,8 +60,6 @@ This project performs a complete exploratory data analysis on a transactional co
 - **Fridays and weekends** show +18% uplift vs weekdays — suggest targeted weekend promotions
 - **Store #2 underperforms** despite similar foot traffic — pricing/placement may be inefficient
 - Revenue dips during **July–August**, likely off-season — can introduce loyalty campaigns
-
----
 
 ## 📈 Visualizations Included
 - Revenue trend line charts (daily/monthly)
